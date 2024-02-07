@@ -1,5 +1,15 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Local Sandbox (bcserver)",
+            "type": "al",
+            "request": "launch",
+            "server": "http://bcserver",
+            "serverInstance": "BC",
+            "port": 7049,
+            "tenant": "default",
+            "authentication": "UserPassword"
+        }
     ]
 }
