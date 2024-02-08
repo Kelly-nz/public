@@ -6,5 +6,12 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "authTokenSecret": "GHTOKENWORKFLOW"
+  "authTokenSecret": "GHTOKENWORKFLOW","doNotSignApps":  true,
+  "enableCodeCop":  false,
+  "enableAppSourceCop":  true,
+  "enablePerTenantExtensionCop":  false,
+  "enableUICop":  true,
+  "bcContainerHelperVersion":  "dev",
+  "additionalCountries":  "",
+  "vaultNameForLocal":  "BuildVariables"
 }
